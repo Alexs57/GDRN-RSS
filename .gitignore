@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Numba JIT cache
+.numba_cache/
+__pycache__/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Run outputs (in case demo is extended to dump results)
+*.log
+*.out
+results/
+output/
+
+# Data files (do not commit datasets to the repo)
+data/
+checkpoints/
+*.npz
+*.npy
+*.pt
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.csv
+*.tsv
+*.parquet
